@@ -22,3 +22,7 @@ resource "google_compute_network" "vpc_network" {
 resource "google_compute_network" "vpc_network2" {
   name = "terraform-network"
 }
+
+resource "google_compute_network" "vpc_network3" {
+  name = "terraform-network"
+}
